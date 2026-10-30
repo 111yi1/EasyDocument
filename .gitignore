@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv*/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 构建产物
+build/
+dist/
+*.spec
+*.tmp
+
+# 应用数据与日志
+*.db
+*.db-wal
+*.db-shm
+*.log
+.devdata/
+data/
+backups/
+logs/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.code-workspace
+Thumbs.db
+desktop.ini
+.DS_Store
